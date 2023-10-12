@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 1px solid grey;
+    padding: 4px;
+    width: 200px;
+}
+
+.follow {
+    display: flex;
+    justify-content: space-between;
+}
+
+#result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
